@@ -12,16 +12,9 @@ public class ZeroWebApp {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://zero.webappsecurity.com/index.html");
 	    driver.findElement(By.id("signin_button")).click();
-	    driver.findElement(By.id("user_login")).clear();
 	    driver.findElement(By.id("user_login")).sendKeys("username");
-	    driver.findElement(By.id("user_password")).click();
-	    driver.findElement(By.id("user_password")).clear();
 	    driver.findElement(By.id("user_password")).sendKeys("password");
 	    driver.findElement(By.name("submit")).click();
-	    driver.findElement(By.linkText("username")).click();
-	    driver.findElement(By.id("logout_link")).click();
-		driver.close();
-
 	}
 
 }

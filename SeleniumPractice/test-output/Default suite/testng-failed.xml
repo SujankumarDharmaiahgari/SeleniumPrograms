@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumCheck.Shopclues">
+      <class name="seleniumCheck.SuccessAPI">
         <methods>
-          <include name="kidere"/>
+          <include name="d_links"/>
+          <include name="c_error"/>
         </methods>
-      </class> <!-- seleniumCheck.Shopclues -->
+      </class> <!-- seleniumCheck.SuccessAPI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
