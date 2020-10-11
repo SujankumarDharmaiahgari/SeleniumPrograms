@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-23T10:47:27Z" name="Default suite" finished-at="2020-07-23T10:47:30Z" duration-ms="2966">
+    <groups>
+    </groups>
+    <test started-at="2020-07-23T10:47:27Z" name="Default test" finished-at="2020-07-23T10:47:30Z" duration-ms="2966">
+      <class name="dogDetails.GETDogsByBreed">
+        <test-method signature="DogsByBreed()[pri:0, instance:dogDetails.GETDogsByBreed@7c83dc97]" started-at="2020-07-23T10:47:27Z" name="DogsByBreed" finished-at="2020-07-23T10:47:30Z" duration-ms="2916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DogsByBreed -->
+      </class> <!-- dogDetails.GETDogsByBreed -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
