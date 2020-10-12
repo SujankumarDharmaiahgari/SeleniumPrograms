@@ -21,7 +21,6 @@ public class SelenideTest {
 	$(By.name("q")).setValue("India").pressEnter();
 	$(By.xpath("//span[text()='India - Wikipedia']")).shouldBe(visible).shouldHave(text("India - Wikipedia"));
 	$(By.xpath("//span[text()='India - Wikipedia']")).click();
-	
 	}
 
 }
